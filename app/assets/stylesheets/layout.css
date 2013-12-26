@@ -1,9 +1,209 @@
-#header {
-  height: 460px;
-  background: url('bg_clouds.gif');
+html, body {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  min-width: 1000px;
+  color: #fff;
 }
 
-#container {
-  height: 100%;
-  background: url('');
+.half {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#header {
+  width: 100%;
+  height: 460px;
+  background: url('bg_clouds.gif') repeat-x;
+  background-size: auto 460px;
+  min-width: 1000px;
+}
+
+#backwave {
+  background: url('bg_backwave.png') repeat-x;
+  position: absolute;
+  top: 400px;
+  height: 60px;
+  width: 100%;
+  min-width: 1000px;
+}
+
+#frontwave {
+  background: url('bg_frontwave.png') repeat-x;
+  position: absolute;
+  top: 445px;
+  height: 60px;
+  width: 100%;
+  z-index: 2;
+  min-width: 1000px;
+}
+
+#fence {
+  position: absolute;
+  background: url('fence.png') no-repeat;
+  width: 32%;
+  height: 144px;
+  top: 320px;
+  left: 68%;
+  z-index: 1;
+}
+
+#boat {
+  position: absolute;
+  background: url('boat.png') no-repeat;
+  width: 90%;
+  height: 165px;
+  top: 255px;
+  left: 10%;
+}
+
+#tube {
+  width: 100%;
+  position: absolute;
+  top: 363px;
+  min-width: 1000px;
+}
+
+.tube-container {
+  width: 90px;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+#tube-dude {
+  position: fixed;
+  height:200px;
+  background: url('vessel.png') no-repeat center top;
+  width: 90px;
+  top: 180px;
+  z-index: 20;
+}
+
+#tube-string {
+  background: url('bg_arrow.png') center bottom;
+  position: absolute;
+  top: -180px;
+  z-index: 20;
+  width: 90px;
+  height: 200px;
+}
+
+#tube-overlay {
+  background: url('tube_overlay.png') no-repeat -120px top;
+  height: 49px;
+  width: 90px;
+  position: absolute;
+  z-index: 500;
+  top: 80px;
+}
+
+#tube-backtop {
+  background: url('tube_backtop.png') no-repeat center top;
+  width: 90px;
+  height: 23px;
+  z-index: 10;
+}
+
+#tube-fronttop {
+  background: url('tube_fronttop.png') no-repeat center top;
+  width: 90px;
+  height: 47px;
+  z-index: 30;
+  position: absolute;
+  top: 8px;
+}
+
+#tube-bottom {
+  position: relative;
+  background: url('tube_bottom.png') no-repeat center bottom;
+  width: 90px;
+  height: 47px;
+  z-index: 40;
+  margin-top: 32px;
+}
+
+#tube-back, #tube-front {
+  height: 7300px;
+}
+
+#tube-back {
+  background: url('tube_back.gif') repeat-y center top;
+  width: 90px;
+  z-index: 10;
+  margin: 0 auto;
+}
+
+#tube-front {
+  background: url('tube_front.png') repeat-y center top;
+  width: 90px;
+  z-index: 30;
+  position: absolute;
+  top: 55px;
+}
+
+#depth1 {
+  background: url('depth2_fadetop.png') repeat-x center bottom,
+              url('tile_lightblue.jpg') repeat center top;
+  height: 2471px;
+}
+
+#depth2 {
+  background: url('depth2_fadetop.png') repeat-x center bottom,
+              url('tile_midblue.jpg') repeat center top;
+  height: 2471px;
+}
+
+#depth3 {
+  background: url('depth4_fadetop.png') repeat-x center top,
+              url('depth4_fadebottom.png') repeat-x center bottom,
+              url('tile_darkblue.jpg') repeat center top;
+  height: 2471px;
+}
+
+#footer {
+  height: 950px;
+  background: #acdfe8 url('bg_ground-lg.jpg') repeat-x center 437px;
+}
+
+#buble-city {
+  height: 440px;
+  width: 711px;
+  margin: 0 auto;
+  background: url('bubblecity.png') no-repeat center top;
+}
+
+#bring-font {
+  position: relative;
+  z-index: 500;
+  background: url('bubblefront.png') no-repeat center top;
+  width: 150px;
+  height: 440px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.parallax-title {
+  font-size: 65px;
+}
+
+.parallax-definition {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.parallax-definition p {
+  margin-left: 20px;
 }
