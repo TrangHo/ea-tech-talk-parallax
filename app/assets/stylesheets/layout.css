@@ -20,6 +20,10 @@ html, body {
   float: right;
 }
 
+.clear {
+  clear: both;
+}
+
 #header {
   width: 100%;
   height: 460px;
@@ -132,7 +136,7 @@ html, body {
 }
 
 #tube-back, #tube-front {
-  height: 7300px;
+  height: 5100px;
 }
 
 #tube-back {
@@ -153,13 +157,13 @@ html, body {
 #depth1 {
   background: url('depth2_fadetop.png') repeat-x center bottom,
               url('tile_lightblue.jpg') repeat center top;
-  height: 2471px;
+  height: 2025px;
 }
 
 #depth2 {
   background: url('depth2_fadetop.png') repeat-x center bottom,
               url('tile_midblue.jpg') repeat center top;
-  height: 2471px;
+  height: 800px;
 }
 
 #depth3 {
@@ -193,6 +197,7 @@ html, body {
 .container {
   width: 900px;
   margin: auto;
+  font-size: 36px;
 }
 
 .parallax-title {
@@ -206,4 +211,80 @@ html, body {
 
 .parallax-definition p {
   margin-left: 20px;
+}
+
+.understanding-parallax {
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  z-index: 50;
+  position: relative;
+}
+
+.parallax-description {
+  background: url('png-25.png') no-repeat bottom right;
+  background-size: 25% auto;
+  padding: 60px 0;
+  position: relative;
+}
+
+.parallax-description h1 span {
+  font-size: 54px;
+}
+
+.purple {
+  color: #662d91;
+}
+
+.dark-blue {
+  color: #2b3990;
+}
+
+.yellow {
+  color: #f9ed32;
+}
+
+li.pro {
+  color: #1c75bc;
+}
+
+.fish-1 {
+  position: absolute;
+  width: 146px;
+  height: 86px;
+  background: url('png-10.png') no-repeat;
+  left: 30%;
+  bottom: -150px;
+}
+
+.fish-2 {
+  position: absolute;
+  width: 220px;
+  height: 95px;
+  background: url('png-9.png') no-repeat;
+  left: 30%;
+  bottom: -350px;
+}
+
+.fish-3 {
+  position: absolute;
+  width: 135px;
+  height: 107px;
+  background: url('png-11.png') no-repeat;
+  left: 50%;
+  /*bottom: -350px;*/
+}
+
+.not-seo-friendly {
+  text-align: right;
+  position: relative;
+}
+
+.not-losing-seo {
+  width: 100%;
+  padding: 200px 0;
+  text-align: center;
+  position: relative;
+  z-index: 500;
 }
