@@ -136,7 +136,7 @@ html, body {
 }
 
 #tube-back, #tube-front {
-  height: 5100px;
+  height: 7800px;
 }
 
 #tube-back {
@@ -173,9 +173,17 @@ html, body {
   height: 2471px;
 }
 
+#depth4 {
+  background: url('tile_lightblue.jpg') repeat center top;
+  height: 2700px;
+  position: relative;
+}
+
 #footer {
   height: 950px;
   background: #acdfe8 url('bg_ground-lg.jpg') repeat-x center 437px;
+  z-index: 500;
+  position: relative;
 }
 
 #buble-city {
@@ -281,10 +289,116 @@ li.pro {
   position: relative;
 }
 
+.dark-overlay {
+  height: 2136px;
+  background: url('dark-overlay.png') no-repeat 57px -600px;
+  width: 900px;
+  position: absolute;
+  z-index: 30;
+}
+
 .not-losing-seo {
   width: 100%;
   padding: 200px 0;
   text-align: center;
   position: relative;
   z-index: 500;
+}
+
+.half.left.combo-parallax, .half.right.combo-parallax {
+  padding-top: 100px;
+  z-index: 500;
+  position: relative;
+}
+
+.half.right.combo-parallax {
+  text-align: right;
+  padding-top: 300px;
+}
+
+.half.right.pro-cons-title {
+  margin-top: 500px;
+  text-align: right;
+}
+
+.buble-overlay {
+  height: 1600px;
+  background: url('png-2.png') no-repeat 261px top;
+  width: 900px;
+  position: absolute;
+  top: 600px;
+  z-index: 30;
+}
+
+.bubble-title {
+  color: #fff;
+  z-index: 40;
+  position: absolute;
+}
+
+.half.right.pro-cons-1 {
+  margin-top: 300px;
+  color: #00bbcb;
+  position: relative;
+}
+
+.pro-cons-1 .bubble-title {
+  top: 240px;
+  left: 87px;
+}
+
+.half.left.pro-cons-2 {
+  margin-top: 550px;
+  color: #ef4e18;
+  position: relative;
+}
+
+.pro-cons-2 .bubble-title {
+  top: 287px;
+  right: 82px;
+}
+
+.half.right.pro-cons-3 {
+  margin-top: 150px;
+  color: #9ec736;
+  position: relative;
+}
+
+.pro-cons-3 .bubble-title {
+  top: 450px;
+  left: 88px;
+}
+
+.half.left.pro-cons-4 {
+  margin-top: 250px;
+  color: #fd7d2b;
+  position: relative;
+}
+
+.pro-cons-4 .bubble-title {
+  top:300px;
+  right: 82px;
+}
+
+.half.right.pro-cons-5 {
+  margin-top: 90px;
+  color: #ef4e18;
+  text-align: right;
+  position: relative;
+}
+
+.pro-cons-5 .bubble-title {
+  top: 477px;
+  left: 88px;
+}
+
+.half.left.pro-cons-6 {
+  margin-top: 100px;
+  color: #00bbcb;
+  position: relative;
+}
+
+.pro-cons-6 .bubble-title {
+  top: 467px;
+  right: 82px;
 }
