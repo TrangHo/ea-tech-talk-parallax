@@ -136,7 +136,7 @@ html, body {
 }
 
 #tube-back, #tube-front {
-  height: 7800px;
+  height: 8600px;
 }
 
 #tube-back {
@@ -175,7 +175,7 @@ html, body {
 
 #depth4 {
   background: url('tile_lightblue.jpg') repeat center top;
-  height: 2700px;
+  height: 3500px;
   position: relative;
 }
 
@@ -401,4 +401,8 @@ li.pro {
 .pro-cons-6 .bubble-title {
   top: 467px;
   right: 82px;
+}
+
+.seperate-top {
+  margin-bottom: 300px;
 }

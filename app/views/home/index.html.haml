@@ -90,6 +90,33 @@
       .half.left.pro-cons-6
         If your website uses parallax scrolling, it is important to know that it will not look the same on a mobile device as it does on a PC. This is not a huge problem, but the designer must know how to translate the effect from a PC to a mobile device correctly to avoid large compatiblity problems.
         %h1.bubble-title 6
+      .clear.seperate-top
+      .half.left.parallax-definition
+        %ul
+          %li
+            Parallax is just a technique and applying parallax is more about design ideas.
+          %li
+            For complex design of parallax, one of the hardest part is to understand the animation: how this element moves compared to other elements, etc.
+      .half.right.parallax-definition
+        %p When you grasp the idea, you can implement a parallax page using
+        %ul
+          %li
+            Some JS library such as:
+            = link_to 'stellar.js', 'http://markdalgleish.com/projects/stellar.js/', target: 'blank'
+            ,
+            = link_to 'parallax.js', 'http://wagerfield.github.io/parallax/', target: 'blank'
+            or
+            = link_to 'jparallax', 'http://stephband.info/jparallax/', target: 'blank'
+          %li
+            = link_to 'greensock', 'http://www.greensock.com/', target: 'blank'
+            has many cool animation plugins
+          %li Sometimes even pure CSS
+          %li
+            Point to keep in mind when design/implement parallax page
+            %ul
+              %li Parallax is one page so usually it is heavy with pictures
+              %li Pictures should be scaled properly
+              %li Background should be small and can be repeated to make pattern
   #footer
     #buble-city
       #bring-font
